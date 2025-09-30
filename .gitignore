@@ -1,0 +1,12 @@
+# Dependencias
+node_modules/
+package-lock.json
+
+# Archivos de entorno
+.env
+
+# Scripts (de Windows)
+*.bat
+
+# Carpeta de imagenes de museos
+#imgs/

@@ -1,0 +1,89 @@
+.profile {
+  max-width: 48rem;
+  margin: 2rem auto 0;
+  padding: 1rem;
+}
+
+.profile-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.profile-section {
+  background-color: #ffffff;
+  padding: 1rem;
+  border-radius: 0.25rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1),
+    0 1px 2px rgba(0, 0, 0, 0.06);
+  margin-bottom: 1.5rem;
+}
+
+.section-title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.text-gray {
+  color: #374151;
+}
+
+.text-gray-secondary {
+  color: #6b7280;
+}
+
+.input {
+  width: 100%;
+  border: 1px solid #d1d5db;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.button {
+  margin-top: 0.5rem;
+  padding: 0.25rem 1rem;
+  border: none;
+  border-radius: 0.25rem;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.button-edit {
+  background-color: #2563eb;
+}
+
+.button-edit:hover {
+  background-color: #1d4ed8;
+}
+
+.button-save {
+  background-color: #16a34a;
+}
+
+.button-save:hover {
+  background-color: #15803d;
+}
+
+.button-password {
+  background-color: #9333ea;
+}
+
+.button-password:hover {
+  background-color: #7e22ce;
+}
+
+.list {
+  list-style-type: disc;
+  margin-left: 1.5rem;
+}
+
+.link {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,14 @@
+/* Styles for Home page */
+.home {
+  max-width: 80rem;
+  margin: 1.5rem auto 0;
+  padding: 0 1rem;
+}
+
+.home_title {
+  font-size: 1.875rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #1E40AF;
+}

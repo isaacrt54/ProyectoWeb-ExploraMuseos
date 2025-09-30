@@ -1,0 +1,55 @@
+/* Styles for MuseumCard component */
+.museum-card {
+  background-color: #ffffff;
+  border-radius: 0.75rem;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1.5rem;
+  position: relative;
+}
+
+.museum-card_image {
+  height: 12rem;
+  background-size: cover;
+  background-position: center;
+}
+
+.museum-card_content {
+  padding: 1rem;
+}
+
+.museum-card_title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #1D4ED8;
+  margin-bottom: 0.5rem;
+}
+
+.museum-card_description {
+  color: #4B5563;
+  margin-bottom: 0.5rem;
+}
+
+.museum-card_tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  font-size: 0.875rem;
+}
+
+.museum-card_tag {
+  background-color: #2563EB;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  color: #ffffff;
+}
+
+.museum-card_link {
+  margin-top: 1rem;
+  color: #3B82F6;
+  text-decoration: none;
+}
+
+.museum-card_link:hover {
+  text-decoration: underline;
+}

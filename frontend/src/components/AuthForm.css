@@ -1,0 +1,67 @@
+/* Styles for AuthForm component */
+.auth-form {
+  max-width: 28rem;
+  margin: 3rem auto 0;
+  background-color: #ffffff;
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.auth-form_title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.auth-form_form > * + * {
+  margin-top: 1rem;
+}
+
+.auth-form_input {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+  padding: 0.5rem;
+  box-sizing: border-box;
+}
+
+.auth-form_error {
+  color: #DC2626;
+  font-size: 0.875rem;
+  margin-top: 0.5rem;
+}
+
+.auth-form_button {
+  width: 100%;
+  background-color: #2563EB;
+  color: #ffffff;
+  padding: 0.5rem 0;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s;
+}
+
+.auth-form_button:hover {
+  background-color: #1E40AF;
+}
+
+.auth-form_spinner {
+  display: inline-block;
+  width: 1.25rem;
+  height: 1.25rem;
+  margin-right: 0.5rem;
+  border: 2px solid #ffffff;
+  border-right-color: transparent;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}

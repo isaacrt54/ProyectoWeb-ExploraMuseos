@@ -1,0 +1,56 @@
+/* Styles for Navbar component */
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background-color: #1D4ED8;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.navbar_brand {
+  font-size: 1.25rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.navbar_links {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.navbar_greeting {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.navbar_link {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.navbar_link:hover {
+  text-decoration: underline;
+}
+
+.navbar_button {
+  background-color: #EF4444;
+  color: #ffffff;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  border: none;
+  cursor: pointer;
+}
+
+.navbar_button:hover {
+  background-color: #DC2626;
+}
