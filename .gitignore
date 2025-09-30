@@ -9,4 +9,4 @@ package-lock.json
 *.bat
 
 # Carpeta de imagenes de museos
-#imgs/
+imgs/
